@@ -24,7 +24,7 @@
 	// Configure how your posts are organized and displayed in lists.
 	"collections-and-listings": {
 		// The slug of the Notion page you want to use as your website's home page.
-		"home-page-slug": "home",
+		"home-page-slug": "https://www.notion.so/2c425372aeed80dda52fc1fb26fa0436?v=2c425372aeed801d89a8000cb22622a8&p=2c425372aeed8011a2dadb5efa9b4273&pm=s",
 		// If true, a section with the 5 most recent posts will be displayed on the home page.
 		"recent-posts-on-home-page": true,
 		// The number of posts to show on each page of a paginated list (e.g., /posts, /tags/mytag).
@@ -90,8 +90,8 @@
 	// Add your social media profile URLs here. They will be displayed in the site's social list component.
 	// The keys (e.g., 'github', 'twitter') are fixed and correspond to specific icons.
 	socials: {
-		email: "mailto:your-email@example.com",
-		github: "",
+		email: "paruchurivijay40@gmail.com",
+		github: "https://github.com/vijayparuchuri",
 		googlescholar: "",
 		semanticscholar: "",
 		dblp: "",
@@ -112,13 +112,13 @@
 	// === Analytics Tracking ===
 	tracking: {
 		"google-analytics": {
-			"use-ga": true,
+			"use-ga": false,
 			// Your Google Analytics 4 Measurement ID (e.g., G-XXXXXXXXXX).
 			"public-ga-tracking-id": "",
 		},
 		// Umami is a privacy-focused, open-source analytics alternative to Google Analytics.
 		umami: {
-			"use-umami": false,
+			"use-umami": true,
 			// The website ID from your Umami dashboard.
 			"data-website-id": "",
 			// Set to true if you are hosting your own Umami instance.
