@@ -4,7 +4,7 @@
 	// This section configures the connection to your Notion database.
 	notion: {
 		// (Preferred) The Data Source ID for your Notion integration. This is a more stable way to connect to your database. You can find this in UI here: https://developers.notion.com/reference/retrieve-a-data-source#finding-a-data-source-id
-		"data-source-id": "2c425372-aeed-8009-a333-000b2e413a7c",
+		"data-source-id": "2c525372-aeed-810a-9130-000be05f292d",
 		// (Fallback) The classic Database ID. This is used only if 'data-source-id' is empty. The integration will automatically find the Data Source ID and use the first one from this if needed.
 		"database-id": "",
 	},
@@ -106,7 +106,7 @@
 		kofi: "",
 		"buy-me-a-coffee": "",
 		// This link is for forked repo you'll end up having. Feel free to change it to your needs.
-		"this-github-repo": "https://github.com/nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
+		"this-github-repo": "https://github.com/vijayparuchuri/vijayparuchuri.github.io/",
 	},
 
 	// === Analytics Tracking ===
@@ -152,8 +152,8 @@
 	comments: {
 		// Giscus is a comments system powered by GitHub Discussions. It's free and open-source. Go here for the process of setting it up: https://giscus.app/
 		giscus: {
-			"data-repo": "nerdymomocat-templates/webtrotion-astro-notion-cms-website-blog",
-			"data-repo-id": "R_kgDOK0FuUA",
+			"data-repo": "vijayparuchuri/vijayparuchuri.github.io",
+			"data-repo-id": "R_kgDOQlHaFw",
 			"data-category": "Announcements",
 			"data-category-id": "DIC_kwDOK0FuUM4CbZ5A",
 			"data-mapping": "pathname",
